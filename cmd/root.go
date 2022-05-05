@@ -7,18 +7,6 @@ import (
 	"os"
 )
 
-var cfgfile string
-var cfg = Config{}
-
-type Config struct {
-	User struct {
-		Age int
-		Sex string
-	}
-	Version string
-	Debug   bool
-}
-
 //type Config struct {
 //	UserInfo struct {
 //		age int    `mapstructure:"age"`
